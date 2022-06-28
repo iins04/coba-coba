@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="LayanannEdukasiBertani.jnlp">
+    <information>
+        <title>LayanannEdukasiBertani</title>
+        <vendor>ACER</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="9.0.4+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="LayanannEdukasiBertani.jar" size="60427" download="eager"/>
+        <jar href="lib\xstream-1.4.19.jar" size="633140" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="LayananEdukasiBertani.MenuAwal" name="MenuAwal"/>
+</jnlp>
+
